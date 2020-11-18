@@ -1,22 +1,22 @@
 Fiducial Registration Educational Demonstration
 ===============================================
 
-.. image:: https://github.com/UCL/scikit-surgeryfred/raw/master/project-icon.png
+.. image:: https://github.com/UCL/scikit-surgeryfredbackend/raw/master/project-icon.png
    :height: 128px
    :width: 128px
-   :target: https://github.com/UCL/scikit-surgeryfred
+   :target: https://github.com/UCL/scikit-surgeryfredbackend
    :alt: Logo
 
-.. image:: https://github.com/UCL/scikit-surgeryfred/workflows/.github/workflows/ci.yml/badge.svg
-   :target: https://github.com/UCL/scikit-surgeryfred/actions
+.. image:: https://github.com/UCL/scikit-surgeryfredbackend/workflows/.github/workflows/ci.yml/badge.svg
+   :target: https://github.com/UCL/scikit-surgeryfredbackend/actions
    :alt: GitHub Actions CI status
 
-.. image:: https://coveralls.io/repos/github/UCL/scikit-surgeryfred/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/UCL/scikit-surgeryfred?branch=master
+.. image:: https://coveralls.io/repos/github/UCL/scikit-surgeryfredbackend/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/UCL/scikit-surgeryfredbackend?branch=master
     :alt: Test coverage
 
-.. image:: https://readthedocs.org/projects/scikit-surgeryfred/badge/?version=latest
-    :target: http://scikit-surgeryfred.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/scikit-surgeryfredbackend/badge/?version=latest
+    :target: http://scikit-surgeryfredbackend.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. image:: https://img.shields.io/badge/Cite-SciKit--Surgery-informational
@@ -37,15 +37,11 @@ Fiducial Registration Educational Demonstration
 
 Author: Stephen Thompson
 
-Fiducial Registration Educational Demonstration (SciKit-SurgeryFRED) is part of the `SciKit-Surgery`_ software project, developed at the `Wellcome EPSRC Centre for Interventional and Surgical Sciences`_, part of `University College London (UCL)`_.
+Fiducial Registration Educational Demonstration (SciKit-SurgeryFRED) is part of the `SciKit-Surgery`_ software project, developed at the `Wellcome EPSRC Centre for Interventional and Surgical Sciences`_, part of `University College London (UCL)`_. This repository only contains the backend functions, not any user interface.
 
 Fiducial Registration Educational Demonstration is tested with Python 3.X
 
 Fiducial Registration Educational Demonstration is intended to be used as part of an online tutorial in using fiducial based registration. The tutorial covers the basic theory of fiducial based registration, which is used widely in image guided interventions. The tutorial aims to help the students develop an intuitive understanding of key concepts in fiducial based registration, including Fiducial Localisation Error, Fiducial Registration Error, and Target Registration Error. 
-
-::
-
-    python sksurgeryfred.py
 
 Please explore the project structure, and implement your own functionality.
 
@@ -65,7 +61,7 @@ You can clone the repository using the following command:
 
 ::
 
-    git clone https://github.com/UCL/scikit-surgeryfred
+    git clone https://github.com/UCL/scikit-surgeryfredbackend
 
 
 Running tests
@@ -85,7 +81,7 @@ This code conforms to the PEP8 standard. Pylint can be used to analyse the code:
 ::
 
     pip install pylint
-    pylint --rcfile=tests/pylintrc sksurgeryfred
+    pylint --rcfile=tests/pylintrc sksurgeryfredbackend
 
 
 Installing
@@ -95,7 +91,7 @@ You can pip install directly from the repository as follows:
 
 ::
 
-    pip install git+https://github.com/UCL/scikit-surgeryfred
+    pip install git+https://github.com/UCL/scikit-surgeryfredbackend
 
 
 
@@ -127,11 +123,11 @@ Supported by `Wellcome`_ and `EPSRC`_.
 
 .. _`Wellcome EPSRC Centre for Interventional and Surgical Sciences`: http://www.ucl.ac.uk/weiss
 .. _`source code repository`: https://github.com/UCL/scikit-surgeryfred
-.. _`Documentation`: https://scikit-surgeryfred.readthedocs.io
-.. _`SciKit-Surgery`: https://github.com/UCL/scikit-surgery/wiki
+.. _`Documentation`: https://scikit-surgeryfredbackend.readthedocs.io
+.. _`SciKit-Surgery`: https://scikit-surgery.org
 .. _`University College London (UCL)`: http://www.ucl.ac.uk/
 .. _`Wellcome`: https://wellcome.ac.uk/
 .. _`EPSRC`: https://www.epsrc.ac.uk/
-.. _`contributing guidelines`: https://github.com/UCL/scikit-surgeryfred/blob/master/CONTRIBUTING.rst
-.. _`license file`: https://github.com/UCL/scikit-surgeryfred/blob/master/LICENSE
+.. _`contributing guidelines`: https://github.com/UCL/scikit-surgeryfredbackend/blob/master/CONTRIBUTING.rst
+.. _`license file`: https://github.com/UCL/scikit-surgeryfredbackend/blob/master/LICENSE
 

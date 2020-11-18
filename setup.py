@@ -11,13 +11,13 @@ with open('README.rst') as f:
     long_description = f.read()
 
 setup(
-    name='scikit-surgeryfred',
+    name='scikit-surgeryfredbackend',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description='FRED provides an interactive demonstration of fiducial based registration for teaching purposes',
     long_description=long_description,
     long_description_content_type='text/x-rst',
-    url='https://github.com/UCL/scikit-surgeryfred',
+    url='https://github.com/UCL/scikit-surgeryfredbackend',
     author='Stephen Thompson',
     author_email='s.thompson@ucl.ac.uk',
     license='BSD-3 license',
@@ -52,19 +52,11 @@ setup(
 
     install_requires=[
             'numpy',
-            'matplotlib',
             'scikit-image>0.15',
             'scipy',
-            'ipykernel',
             'nbsphinx',
             'scikit-surgerycore>0.6.5',
     ],
 
-    entry_points={
-        'console_scripts': [
-            'sksurgeryfred=sksurgeryfred.__main__:main',
-            'sksurgeryfred_plotter=sksurgeryfred.ui.sksurgeryfred_plotter_command_line:main',
-            'sksurgeryfred_game=sksurgeryfred.ui.sksurgeryfred_game_command_line:main',
-        ],
-    },
+    entry_points={},
 )

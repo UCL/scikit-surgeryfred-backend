@@ -2,7 +2,7 @@
 
 from logging import getLogger, FileHandler, Formatter, INFO
 import csv
-from sksurgeryfred import __version__
+from sksurgeryfredbe import __version__
 
 class Logger():
     """
@@ -104,7 +104,8 @@ class Logger():
                 except IndexError:
                     raise IOError(("Failed to read log file, " +
                                    "{0:}".format(self.log_file_name) +
-                                   " near line: {0:}".format(samples)))
+                                   " near line: {0:}".format(samples))) \
+                                                   from IOError
         return [actual_tres, actual_fres, expected_tres, expected_fres,
                 mean_fles, no_fids]
 

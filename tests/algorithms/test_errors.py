@@ -3,7 +3,7 @@
 """Fiducial Registration Educational Demonstration tests"""
 import numpy as np
 
-import sksurgeryfred.algorithms.errors as e2d
+import sksurgeryfredbe.algorithms.errors as e2d
 
 # Pytest style
 

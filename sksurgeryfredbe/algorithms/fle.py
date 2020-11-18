@@ -69,7 +69,7 @@ class FLE:
             self.ind_fle_function()
         except TypeError:
             raise TypeError("Failed to run function, ", ind_fle_function,
-                            "check function")
+                            "check function") from TypeError
 
         if sys_fle_function is None:
             if systematic_fle is None:
@@ -87,7 +87,7 @@ class FLE:
             self.sys_fle_function()
         except TypeError:
             raise TypeError("Failed to run function, ", sys_fle_function,
-                            "check function")
+                            "check function") from TypeError
 
     def perturb_fiducial(self, fiducial_marker):
         """

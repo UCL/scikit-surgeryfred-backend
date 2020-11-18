@@ -5,7 +5,7 @@ import numpy as np
 from scipy import stats
 import pytest
 
-from sksurgeryfred.algorithms.fle import FLE
+from sksurgeryfredbe.algorithms.fle import FLE
 
 def test_fle_default():
     """Tests for FLE default"""

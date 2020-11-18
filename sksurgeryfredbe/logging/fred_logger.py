@@ -2,7 +2,7 @@
 
 from logging import getLogger, FileHandler, Formatter, INFO
 import csv
-from sksurgeryfred import __version__
+from sksurgeryfredbe import __version__
 
 class Logger():
     """

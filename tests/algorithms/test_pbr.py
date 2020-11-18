@@ -4,8 +4,8 @@
 import math
 import numpy as np
 
-from sksurgeryfred.algorithms.errors import expected_absolute_value
-import sksurgeryfred.algorithms.point_based_reg as pbreg
+from sksurgeryfredbe.algorithms.errors import expected_absolute_value
+import sksurgeryfredbe.algorithms.point_based_reg as pbreg
 
 
 def _make_circle_fiducials(no_fids, centre, radius,
